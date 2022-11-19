@@ -1,0 +1,42 @@
+[
+  { "name": "node_modules", "children": [] },
+  {
+    "name": "public",
+    "children": [
+      {
+        "name": "assets",
+        "children": [
+          { "name": "file.png" },
+          { "name": "folder.png" },
+          { "name": "folderOpen.png" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "children": [
+      {
+        "name": "assets",
+        "children": []
+      },
+      {
+        "name": "components",
+        "children": [
+          { "name": "File.tsx" },
+          { "name": "Folder.tsx" },
+          { "name": "index.ts" }
+        ]
+      },
+      { "name": "App.jsx" },
+      { "name": "index.css" },
+      { "name": "main.jsx" },
+      { "name": "tree.json" }
+    ]
+  },
+  { "name": ".gitignore" },
+  { "name": "index.html" },
+  { "name": "package.json" },
+  { "name": "vite.config.js" },
+  { "name": "yarn.lock" }
+]

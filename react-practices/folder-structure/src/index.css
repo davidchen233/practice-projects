@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.title {
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.folder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 300px;
+  max-height: 70vh;
+  padding: 20px 30px;
+  background-color: rgb(170, 170, 170);
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.file,
+.folder {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.file .content,
+.folder .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.file img,
+.folder img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.folder .file:last-child {
+  margin-bottom: 0;
+}
+
+.folder .content {
+  cursor: pointer;
+}
+
+.folder .more {
+  animation: expand 2s;
+}
+
+.file .content {
+  cursor: default;
+}
