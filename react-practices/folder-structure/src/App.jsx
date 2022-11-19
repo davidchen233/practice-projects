@@ -1,7 +1,6 @@
+import React from 'react'
 import folderStructure from './tree.json'
 import { File, Folder } from './components'
-
-import React from 'react'
 
 const App = () => {
   const indent = 0
